@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.cabecalho{
+
+    font-size: 30px;
+    text-align: left;
+    height: 100px;
+    padding: 20px;
+    background-color: rgb(31, 27, 27);
+    border: 1px solid #181717;
+}
+
+.textocabecalho{
+    text-decoration:none;
+    font-family:"Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: underline;
+    text-align: left;
+    color: #fff;
+
+}
+
+body{
+    background-image:url(/paginas/programa.jpg); 
+    background-size:100%;
+   
+}
+
+h1{
+    font-family:"Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    color: #ececec;
+    font-size: 50px;
+    text-shadow: 3px 2px 3px #65acb6;
+
+}
+
+button{
+  
+    font-size: 20px;
+    color: #fff;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    font-family:"Rowdies", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: rgb(51, 51, 51);
+    border:1px black;
+    padding:10px;
+    box-shadow: 3px 5px 4px  #777777;
+    border-radius: 10px;
+
+  
+   
+
+
+
+}
+button:hover{
+    box-shadow: 3px 5px 4px #ffffff;
+  
+}
+
+.jogo{
+    border-radius: 10px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:transparent;
+    backdrop-filter: blur(20px);
+    padding: 30px;
+    margin-top: 100px;
+    margin-left: 700px;
+    margin-right: 700px;
+    
+   
+}
